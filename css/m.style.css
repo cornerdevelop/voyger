@@ -169,7 +169,8 @@
     flex-direction: column;
 }
 .port-gnb .port-gnb-wrap .gnb-box { 
-    flex: 1; display: flex;  
+    display: flex;  
+    height: 33.33%;
     flex-wrap: wrap; flex-direction: column;
     justify-content: center; align-items: center;
     background-size: cover !important;

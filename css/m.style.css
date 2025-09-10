@@ -11,15 +11,6 @@
     }
     .port-wrap .port-main { width: 100%; }
     .port-main .port-head-txt1 {display: none;}
-    .port-main .m-port-head-txt1{  
-        display: block;
-        font-size: 8vw; 
-        position: absolute;
-        left: 50%; 
-        top: 28%;
-        color: #fff;
-        transform: translate(-50%,0);
-    }
 
     .port-main .port-txt-01{          
         position: absolute;
@@ -27,14 +18,26 @@
         top: 25%;
         color: #fff;
         transform: translate(-50%,0);
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
+    .port-main .m-port-head-txt1{  
+        display: block;
+        font-size: 9vw; 
+        position: absolute;
+        left: 50%; 
+        top: 30%;
+        color: #fff;
+        transform: translate(-50%,0);
+    }
+
+
+
     .port-main .port-txt-02{  
-        font-size: 16px; 
+        font-size: 18px; 
         position: absolute;
         left:50%;
-        top:38%;
+        top:40%;
         color: #fff;
         transform: translate(-50%,0);
         text-align: center;

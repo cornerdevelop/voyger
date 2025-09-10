@@ -157,7 +157,7 @@
 
 .port-gnb { position: fixed; text-align: center; left: 0; right: 0; top: 0; z-index: 9999; display: none;}
 
-.btn-gnb-close { position: absolute; right: 40px; top: 40px; padding: 10px; cursor: pointer; }
+.btn-gnb-close { position: absolute; right: 12px; top: 5px; padding: 10px; cursor: pointer; }
 .btn-gnb-close > i { font-size: 30px; color: #333; }
 .btn-menu { position: absolute; right: 40px; top: 20px; cursor: pointer;}
 .btn-menu > i { font-size: 42px; color: #333; }

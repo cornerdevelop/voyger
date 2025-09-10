@@ -196,6 +196,7 @@
 }
 .port-gnb .port-gnb-wrap .gnb-box .port-txt-02 { 
     font-size: 16px; color: #fff; line-height: 20px;
+    display: none;
 }
 .port-gnb .port-gnb-wrap .gnb-box .btn-gnb-box {
 

@@ -4,7 +4,7 @@
 
 
 .port-wrap .port-main { 
-    background: url('/images/main-cover3.jpg')no-repeat center center; 
+    background: url('https://cornerdevelop.github.io/voyger/images/main-cover3.jpg')no-repeat center center; 
     height: 100vh;
     background-size: cover;
     width: 60%;

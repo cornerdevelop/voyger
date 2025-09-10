@@ -439,7 +439,7 @@
 }
 
 .m-port-pagination { display: block; }
-.port-pagination { display: none; }
+.port-pagination { display: none !important;}
 
 }
 

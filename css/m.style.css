@@ -4,7 +4,7 @@
     .m-port-content-wrap { 
         display: block; 
         position: absolute;
-        left: 50%; top: 65%;
+        left: 50%; top: 68%;
         transform: translate(-50%,-50%);
         text-align: center;
     
@@ -38,6 +38,22 @@
 
     .port-main .port-txt-02{  
         font-size: 18px; 
+        position: absolute;
+        left:50%;
+        top:40%;
+        color: #fff;
+        transform: translate(-50%,0);
+        text-align: center;
+        width: 100%;
+        display: none;
+        
+    }
+
+    .port-main .m-port-txt-02{  
+
+        display: block;
+        font-size: 18px; 
+        line-height: 24px;
         position: absolute;
         left:50%;
         top:40%;

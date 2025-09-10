@@ -72,6 +72,15 @@
     color: #fff;
 }
 
+.port-main .m-port-txt-02{  
+    display: none;
+    font-size: 30px; 
+    position: absolute;
+    left: 4%;
+    bottom: 11%;
+    color: #fff;
+}
+
 .port-main .port-txt-01 { font-size: 2vw; color: #fff; }
 .port-main .port-txt-02 { font-size: 1.5vw;}
 .port-main .port-head-txt2 { font-size: 60px;}

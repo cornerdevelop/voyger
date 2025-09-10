@@ -128,6 +128,7 @@
         border-radius:100%;
         line-height: 25px;
         font-weight: 700;
+        top: 17px;
     }
 
     .design-wrap .design-content-box2 .common-info .btn-view-type { display: none;}

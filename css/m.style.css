@@ -412,6 +412,8 @@
     border: 1px solid #333;
 }
 
+.m-port-pagination { display: block; }
+.port-pagination { display: none; }
 
 }
 

@@ -4,7 +4,7 @@
 
 
 .port-wrap .port-main { 
-    background: url('https://cornerdevelop.github.io/voyger/images/main-cover2.jpg')no-repeat center top; 
+    background: url('/images/main-cover3.jpg')no-repeat center center; 
     height: 100vh;
     background-size: cover;
     width: 60%;
@@ -20,7 +20,6 @@
     flex-direction: column;
     flex: 1;
     
-
 }
 .port-wrap .port-content-wrap .port-design { 
     

@@ -9,7 +9,7 @@
         text-align: center;
     
     }
-    .port-wrap .port-main { width: 100%;}
+    .port-wrap .port-main { width: 100%; }
     .port-main .port-head-txt1 {display: none;}
     .port-main .m-port-head-txt1{  
         display: block;

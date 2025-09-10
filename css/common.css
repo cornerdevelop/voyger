@@ -30,7 +30,22 @@ a { text-decoration: none;}
   position: absolute; right: 40px; 
   top: 20px; cursor: pointer; 
   z-index: 9998;
-  animation: motion 0.8s linear 0s infinite alternate; margin-top: 0; }
+  animation: motion 0.8s linear 0s infinite alternate; 
+  margin-top: 0; 
+  width: 80px;
+}
+
+.btn-menu::after {
+  position: absolute;
+  content: '빠른메뉴접근';
+  left: 8px; bottom: -20px;
+  display: block;
+  background-color: #1B74E7;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
         
 @keyframes motion {
 	0% {margin-top: 0px;}
@@ -75,6 +90,19 @@ a { text-decoration: none;}
   position: fixed; left: 20px; 
   top: 20px; z-index: 9999; cursor: pointer; 
   animation: motion2 0.8s linear 0s infinite alternate; margin-top: 0;
+  width: 80px;
+}
+
+.btn-home::after{
+  position: absolute;
+  content: '첫화면으로';
+  left: 8px; bottom: -20px;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 @keyframes motion2 {

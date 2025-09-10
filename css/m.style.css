@@ -269,12 +269,12 @@
     
 }
 
-.develope-wrap .develope-content-box2 .font-main { font-size: 46px; margin-top: 60px;}
-.develope-wrap .develope-content-box2 .common-info {
-
-
-        
+.develope-wrap .develope-content-box2 .font-main { 
+    font-size: 46px; margin-top: 60px;
+    display: none;
 }
+.develope-wrap .develope-content-box2 .common-info { }
+
 
 .develope-wrap .m-btn-view-type {
 
@@ -361,8 +361,8 @@
     font-size: 24px; font-weight: 700;  
 }
 .develope-wrap .develope-content-box2 .port-head-txt3 { font-size: 24px; }
-.develope-wrap .develope-content-box2 .port-txt-03 { 
-    font-size: 18px; line-height: 22px; 
+    .develope-wrap .develope-content-box2 .port-txt-03 { 
+    font-size: 16px; line-height: 22px; 
 }
 
 .develope-wrap .develope-content-box2 .common-info-list {

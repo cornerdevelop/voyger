@@ -238,7 +238,7 @@
 
     background: url('https://cornerdevelop.github.io/voyger/images/ollot.png')no-repeat center top; 
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     background-size: cover;
     position: relative;
 }
@@ -256,7 +256,7 @@
 .develope-wrap .develope-content-box2-bg {
 
     background: url('https://cornerdevelop.github.io/voyger/images/aywa.png')no-repeat center top; 
-    height: 40vh;
+    height: 30vh;
     background-size: cover;
     width: 100%;
     

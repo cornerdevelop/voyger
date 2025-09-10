@@ -95,7 +95,7 @@
 
 
     .design-wrap .design-content-box2 { margin-top: 30px;}
-    .design-wrap .design-content-box2 .font-main { font-size: 42px;}
+    .design-wrap .design-content-box2 .font-main { font-size: 32px;}
     .design-wrap .design-content-box2 .common-info .info-border {
         padding: 0; margin: 0;
     }
@@ -110,10 +110,26 @@
     }
 
     .design-wrap .design-content-box2 .point-txt { display: none;}
-    .design-wrap .design-content-box2 .port-txt-03 { font-size: 16px; line-height: 26px; }
+    .design-wrap .design-content-box2 .port-txt-03 { font-size: 14px; line-height: 20px; }
     .design-wrap .design-content-box2 .common-info .info-border::before { width: 20%; background-color: #1B74E7; top: -8px;}
     .design-wrap .design-content-box2 .common-info .info-border::after { display: none; }
     .design-wrap .design-content-box2 .common-info-list { width: 92%; }
+    .design-wrap .design-content-box2 .common-info .common-info-list > li {
+
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+    }
+
+    .design-wrap .design-content-box2 .common-info .common-info-list > li > .circle-type {
+
+        width: 25px;
+        height: 25px;
+        border-radius:100%;
+        line-height: 25px;
+        font-weight: 700;
+    }
+
     .design-wrap .design-content-box2 .common-info .btn-view-type { display: none;}
     .design-wrap .m-btn-view-type { 
     display: block;

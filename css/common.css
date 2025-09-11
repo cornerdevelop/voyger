@@ -96,13 +96,14 @@ a { text-decoration: none;}
 .btn-home::after{
   position: absolute;
   content: '첫화면으로';
-  left: 8px; bottom: -20px;
+  left: 50%; bottom: -20px;
   display: block;
   background-color: #333;
   color: #fff;
   font-size: 10px;
   padding: 5px 10px;
   border-radius: 10px;
+  transform: translate(-50%,0);
 }
 
 @keyframes motion2 {

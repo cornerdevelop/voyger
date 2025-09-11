@@ -134,10 +134,10 @@
     .design-wrap .design-content-box2 .common-info .btn-view-type { display: none;}
     .design-wrap .m-btn-view-type { 
         display: block;
-        position: fixed;
+        position: absolute;
         left: 50%;
         right: 0;
-        bottom: 58%;
+        bottom: 50%;
         background-color: #1B74E7;
         height: 40px;
         transform: translate(-50%, -50%);

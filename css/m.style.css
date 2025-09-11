@@ -133,11 +133,19 @@
 
     .design-wrap .design-content-box2 .common-info .btn-view-type { display: none;}
     .design-wrap .m-btn-view-type { 
-    display: block;
-    position: fixed; left: 0; right: 0; bottom: 0;    
-    background-color: #1B74E7;
-    height: 70px;
-}
+        display: block;
+        position: fixed;
+        left: 50%;
+        right: 0;
+        bottom: 58%;
+        background-color: #1B74E7;
+        height: 40px;
+        transform: translate(-50%, -50%);
+        border-radius: 15px 15px 0 0 ;
+
+    }
+
+
 
     .design-wrap .m-btn-view-type > a {
 

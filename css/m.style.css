@@ -482,6 +482,18 @@
 .m-port-pagination { display: block; }
 .port-pagination { display: none !important;}
 .btn-home > a > img { height: 35px; }
+.m-profile-wrap .m-profile-pag {
+
+    background: #1B74E7;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 10px);
+    padding: 10px 0;
+    border-radius: 15px;
+    color: #fff;
+    bottom: 220px;
+}
 
 }
 

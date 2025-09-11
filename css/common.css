@@ -104,7 +104,7 @@ a { text-decoration: none;}
   padding: 3px 6px;
   border-radius: 10px;
   transform: translate(-50%,0);
-  width: 100%;
+  width: 80%;
 }
 
 @keyframes motion2 {

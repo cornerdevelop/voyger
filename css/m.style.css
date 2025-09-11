@@ -422,7 +422,7 @@
 }
 
 .m-profile-wrap .profile-content-box .profile-content-list > h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .m-profile-wrap .profile-content-box .profile-content-list > p {
@@ -448,7 +448,7 @@
 .m-profile-wrap2 .profile-content-box .profile-content-list{
 
     width: 45%;
-    height: 30vh;
+    height: 25vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -457,6 +457,17 @@
     border-radius: 15px;
     border: 1px solid #333;
 }
+
+
+.profile-wrap .profile-content-wrap .profile-content-box .profile-content-list .profile-circle {
+
+    width: 300px;
+    height: 300px;
+    background: url('https://cornerdevelop.github.io/voyger/images/profile.png')no-repeat center center;
+    background-size: cover;
+    border-radius: 100%;
+}
+
 
 .m-port-pagination { display: block; }
 .port-pagination { display: none !important;}

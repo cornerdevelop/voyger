@@ -106,6 +106,7 @@
         height: 40vh;
         background-size: cover;
         width: 100%;
+        position: relative;
         
     }
 

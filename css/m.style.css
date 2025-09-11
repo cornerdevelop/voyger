@@ -421,13 +421,22 @@
     
 }
 
+.m-profile-wrap .profile-content-box .profile-content-list .font-main{
+
+    font-size: 36px;
+    line-height: 48px;
+}
+
 .m-profile-wrap .profile-content-box .profile-content-list > h2 {
     margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .m-profile-wrap .profile-content-box .profile-content-list > p {
 
     margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
     
 }
 

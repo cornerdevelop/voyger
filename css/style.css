@@ -425,7 +425,10 @@
 
 /* profile-wrap start */
 
-.profile-wrap { position: relative; text-align: center; background-color: #f8f6f3; padding: 1% 0;}
+.profile-wrap { 
+    position: relative; text-align: center; 
+    background-color: #f8f6f3; padding: 0% 10%;
+}
 .profile-wrap .profile-content-wrap { 
     display: flex; justify-content: center; 
     flex-wrap: wrap; align-items: center;

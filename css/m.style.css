@@ -95,7 +95,7 @@
 
 
     .design-wrap .design-content-box2 { margin-top: 30px;}
-    .design-wrap .design-content-box2 .font-main { font-size: 32px;}
+    .design-wrap .design-content-box2 .font-main { font-size: 32px; margin-top: 20px;}
     .design-wrap .design-content-box2 .common-info .info-border {
         padding: 0; margin: 0;
     }
@@ -103,7 +103,7 @@
     .design-wrap .design-content-box1 {
 
         background: url('https://cornerdevelop.github.io/voyger/images/bg-style-01.jpg')no-repeat center center; 
-        height: 40vh;
+        height: 35vh;
         background-size: cover;
         width: 100%;
         position: relative;
@@ -142,7 +142,7 @@
         background-color: #1B74E7;
         height: 40px;
         transform: translate(-50%, -50%);
-        border-radius: 15px 15px 0 0 ;
+        
 
     }
 

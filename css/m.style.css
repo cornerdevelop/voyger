@@ -443,6 +443,7 @@
     height: 100vh;
     align-items: center;
     flex-wrap: wrap;
+    padding: 10% 0;
 }
 
 .m-profile-wrap2 .profile-content-box .profile-content-list{

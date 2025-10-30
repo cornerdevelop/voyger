@@ -540,7 +540,7 @@
 
 
 .port-gnb .port-gnb-wrap .gnb-box { background-size: cover; height: 100vh;}
-.port-gnb .port-gnb-wrap .gnb-box1 { background: url('https://cornerdevelop.github.io/voyger/images/gnb-cover0.jpg') no-repeat center top ; }
-.port-gnb .port-gnb-wrap .gnb-box2 { background: url('https://cornerdevelop.github.io/voyger/images/gnb-cover2.png') no-repeat center top ; }
-.port-gnb .port-gnb-wrap .gnb-box3 { background: url('https://cornerdevelop.github.io/voyger/images/gnb-cover3.png') no-repeat center top ;}
+.port-gnb .port-gnb-wrap .gnb-box1 { background: url('https://cornerdevelop.github.io/voyger/images/gnb-cover0.jpg') no-repeat center top ; background-size: cover; }
+.port-gnb .port-gnb-wrap .gnb-box2 { background: url('https://cornerdevelop.github.io/voyger/images/gnb-cover2.png') no-repeat center top ; background-size: cover; }
+.port-gnb .port-gnb-wrap .gnb-box3 { background: url('https://cornerdevelop.github.io/voyger/images/gnb-cover3.png') no-repeat center top ; background-size: cover; }
 

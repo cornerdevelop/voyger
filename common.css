@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Cafe24Anemone';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.font-main { font-family: 'Cafe24Anemone'; }
+.font-en { font-family: "Oxanium", sans-serif; }
+
+.color-blue1 { color: #1B74E7; font-weight: 700;}
+.color-blue2 { color: #38E9F9;}
+.color-black { color: #333;}
+.color-yellow { color: #CCFF00; }
+.color-black-bg { background-color: #333; }
+
+
+
+body {font-family: 'SUIT', sans-serif; color: #333; }
+a { text-decoration: none;}
+
+.btn-menu { 
+  position: absolute; right: 2%; 
+  top: 20px; cursor: pointer; 
+  z-index: 9998;
+  animation: motion 0.8s linear 0s infinite alternate; 
+  margin-top: 0; 
+  width: 80px;
+}
+
+.btn-menu::after {
+  position: absolute;
+  content: '빠른메뉴접근';
+  left: 0px; bottom: -23px;
+  display: block;
+  background-color: #1B74E7;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: 75%;
+}
+        
+@keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 5px;}
+}
+
+
+.btn-menu > i { font-size: 42px; color: #333; }
+
+.port-prev { color: #333 !important; left: 40px !important;  background-color: #fff; width: 70px !important; height: 70px !important; border-radius: 100%; font-size: 36px !important;} 
+.port-next { color: #fff !important; right: 40px !important;  background-color: #333; width: 70px !important; height: 70px !important; border-radius: 100%; font-size: 36px !important;} 
+.port-prev::after { font-size: 36px !important;}
+
+.port-pagination { 
+  bottom: 40px !important; color: #333!important; 
+  font-size: 20px !important;
+  background-color: #f8f6f3;
+  width: 40% !important;
+  padding: 25px 0;
+  font-weight: 700;
+  transform: translate(-100%,0);
+  left: 4% !important;
+  border-radius: 30px;
+}
+
+.m-port-pagination { 
+
+  display: none;
+  bottom: 20px !important; color: #333!important; 
+  font-size: 14px !important;
+  
+  
+  padding: 25px 0;
+  font-weight: 700;
+  transform: translate(-100%,0);
+  border-radius: 30px;
+}
+
+.design-pagination { font-size: 24px !important;}
+
+.btn-home { 
+  position: fixed; left: 1%; 
+  top: 20px; z-index: 9999; cursor: pointer; 
+  animation: motion2 0.8s linear 0s infinite alternate; margin-top: 0;
+  width: 80px;
+}
+
+.btn-home::after{
+  position: absolute;
+  content: '첫화면으로';
+  left: 50%; bottom: -24px;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 10px;
+  transform: translate(-50%,0);
+  width: 80%;
+}
+
+@keyframes motion2 {
+	0% {margin-top: 0px;}
+	100% {margin-top: 5px;}
+}
+
+.btn-home > a > img { height: 50px;}
+.design-output .swiper-pagination { 
+  font-size: 20px !important;
+  bottom: 10px !important;
+}
